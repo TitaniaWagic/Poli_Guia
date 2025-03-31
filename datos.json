@@ -1,0 +1,143 @@
+{
+  "1": {
+    "titulo": "Administración",
+    "descripcion": "Descripción/Lugar1.txt",
+    "image": "Imagenwebp/image1.webp"
+  },
+  "2": {
+    "titulo": "Coordinación",
+    "descripcion": "Descripción/Lugar2.txt",
+    "image": "Imagenwebp/image2.webp"
+  },
+  "3": {
+    "titulo": "Bloque de Aulas",
+    "descripcion": "Descripción/Lugar3.txt",
+    "image": "Imagenwebp/image3.webp"
+  },
+  "4": {
+    "titulo": "Biblioteca",
+    "descripcion": "Descripción/Lugar4.txt",
+    "image": "Imagenwebp/image4.webp"
+  },
+  "5": {
+    "titulo": "Restaurante",
+    "descripcion": "Descripción/Lugar5.txt",
+    "image": "Imagenwebp/image5.webp"
+  },
+  "6": {
+    "titulo": "Comedor Universitario",
+    "descripcion": "Descripción/Lugar6.txt",
+    "image": "Imagenwebp/image6.webp"
+  },
+  "7": {
+    "titulo": "Sala de Lectura",
+    "descripcion": "Descripción/Lugar7.txt",
+    "image": "Imagenwebp/image7.webp"
+  },
+  "8": {
+    "titulo": "Sala de Estudio",
+    "descripcion": "Descripción/Lugar8.txt",
+    "image": "Imagenwebp/image8.webp"
+  },
+  "9": {
+    "titulo": "Bloque de Aula Magna",
+    "descripcion": "Descripción/Lugar9.txt",
+    "image": "Imagenwebp/image9.webp"
+  },
+  "11": {
+    "titulo": "Espacio deportivo 1",
+    "descripcion": "Descripción/Lugar10.txt",
+    "image": "Imagenwebp/image10.webp"
+  },
+  "10": {
+    "titulo": "Espacio deportivo 2",
+    "descripcion": "Descripción/Lugar11.txt",
+    "image": "Imagenwebp/image11.webp"
+  },
+  "12": {
+    "titulo": "POLIPLAZA 1",
+    "descripcion": "Descripción/Lugar12.txt",
+    "image": "Imagenwebp/image12.webp"
+  },
+  "13": {
+    "titulo": "POLIPLAZA 2",
+    "descripcion": "Descripción/Lugar13.txt",
+    "image": "Imagenwebp/image13.webp"
+  },
+  "14": {
+    "titulo": "POLIPLAZA 3",
+    "descripcion": "Descripción/Lugar14.txt",
+    "image": "Imagenwebp/image14.webp"
+  },
+  "15": {
+    "titulo": "POLIPLAZA 4",
+    "descripcion": "Descripción/Lugar15.txt",
+    "image": "Imagenwebp/image15.webp"
+  },
+  "16": {
+    "titulo": "POLIPLAZA 5",
+    "descripcion": "Descripción/Lugar16.txt",
+    "image": "Imagenwebp/image16.webp"
+  },
+  "17": {
+    "titulo": "Mesa de Entrada - Preseptoria",
+    "descripcion": "Descripción/Lugar17.txt",
+    "image": "Imagenwebp/image17.webp"
+  },
+  "18": {
+    "titulo": "Mesa de Entrada",
+    "descripcion": "Descripción/Lugar18.txt",
+    "image": "Imagenwebp/image18.webp"
+  },
+  "19": {
+    "titulo": "Bloque de Laboratorios",
+    "descripcion": "Descripción/Lugar19.txt",
+    "image": "Imagenwebp/image19.webp"
+  },
+  "20": {
+    "titulo": "Bloque de Investigación",
+    "descripcion": "Descripción/Lugar20.txt",
+    "image": "Imagenwebp/image20.webp"
+  },
+  "21": {
+    "titulo": "Calistenia",
+    "descripcion": "Descripción/Lugar21.txt",
+    "image": "Imagenwebp/image21.webp"
+    },
+  "22": {
+    "titulo": "Estacionamiento 1",
+    "descripcion": "Descripción/Lugar22.txt",
+    "image": "Imagenwebp/image22.webp"
+    },
+  "23": {
+    "titulo": "Estacionamiento 2",
+    "descripcion": "Descripción/Lugar23.txt",
+    "image": "Imagenwebp/image23.webp"
+    },
+  "24": {
+    "titulo": "Estacionamiento de profesores",
+    "descripcion": "Descripción/Lugar24.txt",
+    "image": "Imagenwebp/image24.webp"
+    },
+  "25": {
+    "titulo": "Estacionamiento 4",
+    "descripcion": "Descripción/Lugar25.txt",
+    "image": "Imagenwebp/image25.webp"
+    },
+  "26": {
+    "titulo": "POLIPLAZA 6",
+    "descripcion": "Descripción/Lugar26.txt",
+    "image": "Imagenwebp/image26.webp"
+    },
+  "27": {
+    "titulo": "Bloque de Laboratorios piso 2",
+    "descripcion": "Descripción/Lugar27.txt",
+    "image": "Imagenwebp/image27.webp"
+    },
+  "28": {
+    "titulo": "POLIPLAZA 8",
+    "descripcion": "Descripción/Lugar28.txt",
+    "image": "Imagenwebp/image28.webp"
+    }
+}
+

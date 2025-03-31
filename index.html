@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facultad Politécnica</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="CSSTarjetaBuscador.css">
+    <link rel="stylesheet" href="CSSEstiloGeneral.css">
+    <link rel="stylesheet" href="CSSMoviles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <!-- Logo de la Facultad (enlace público) -->
+            <img src="https://lh5.googleusercontent.com/proxy/tO9bCx3WHE_n7HbQJmQlyauOw5jcdVECjNcU_iXOkl0biYPavrM2W5obJo2Wk_wzf344hDBTzQpeL_2p7TYOwwyvbz5xIOvDitHv" alt="Logo de la Facultad" class="logo">
+            <h1>Facultad Politécnica</h1> <!-- Título actualizado -->
+        </div>
+    </header>
+
+    <main>
+        <!-- Mapa Interactivo -->
+        <div class="map-container">
+            <object id="svgMap" type="image/svg+xml" data="MapaPoliOriginal.svg" title="Mapa interactivo de la Facultad Politécnica">
+                Tu navegador no soporta objetos embebidos. Por favor, descarga el mapa <a href="MapaPoliOriginal.svg">aquí</a>.
+            </object>
+            <div class="box" id="box">
+                <div id="lupa"> 
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2"> 
+                        <circle cx="11" cy="11" r="8"></circle> 
+                        <line x1="24" y1="24" x2="16.65" y2="16.65"></line> 
+                    </svg> 
+                </div>
+                <div class="search-bar">
+                    <svg viewBox="0 0 24 24">
+                      <path d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 0 0 1.48-5.34c-.47-2.78-2.79-5-5.59-5.34a6.505 6.505 0 0 0-7.27 7.27c.34 2.8 2.56 5.12 5.34 5.59a6.5 6.5 0 0 0 5.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49 0 .41-.41.41-1.08 0-1.49L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                    </svg>
+                    <input type="text" id="searchInput" placeholder="Buscar..." autocomplete="off">
+                    <svg class="close-icon" id="closeIcon" viewBox="0 0 24 24">
+                      <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
+                    </svg>
+                </div>
+                <div class="menu" id="menu"></div>
+              </div>
+              
+              <div class="tarjeta" id="tarjeta" onclick="event.stopPropagation()">
+                <div class="tarjeta-contenido">
+                    <div class="tarjeta-fijo">
+                        <h2 id="tarjeta-titulo"></h2>
+                    </div>
+                    <div class="tarjeta-scrollable">
+                        <img id="tarjeta-image">
+                        <p id="tarjeta-text"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sección de Servicios Disponibles -->
+        <section class="servicios">
+            <h2>Zonas y Dependencias</h2>
+            <div class="servicios-grid">
+                <!-- Biblioteca -->
+                <div class="servicio">
+                    <div class="servicio-icono">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Biblioteca</h3>
+                    <p>Espacio con una amplia colección de libros y recursos digitales.</p>
+                </div>
+
+                <!-- Comedor Universitario -->
+                <div class="servicio">
+                    <div class="servicio-icono">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Comedor Universitario</h3>
+                    <p>Servicio de alimentación para estudiantes y personal.</p>
+                </div>
+
+                <!-- Posgrado -->
+                <div class="servicio">
+                    <div class="servicio-icono">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Posgrado</h3>
+                    <p>Programas de especialización y maestrías.</p>
+                </div>
+
+                <!-- Laboratorio de Hardware y Redes -->
+                <div class="servicio">
+                    <div class="servicio-icono">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Laboratorio de Hardware y Redes</h3>
+                    <p>Equipamiento para prácticas de hardware y redes.</p>
+                </div>
+
+                <!-- Restaurante -->
+                <div class="servicio">
+                    <div class="servicio-icono">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Restaurante</h3>
+                    <p>Servicio de comida para la comunidad universitaria.</p>
+                </div>
+
+                <!-- Poliplazas -->
+                <div class="servicio">
+                    <div class="servicio-icono">
+                        <i class="fas fa-tree"></i>
+                    </div>
+                    <h3>Poliplazas</h3>
+                    <p>Áreas verdes y espacios de recreación.</p>
+                </div>
+
+                <!-- Dirección de Extensión -->
+                <div class="servicio">
+                    <div class="servicio-icono">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3>Dirección de Extensión</h3>
+                    <p>Coordinación de proyectos y actividades extracurriculares.</p>
+                </div>
+
+                <!-- Dirección Académica -->
+                <div class="servicio">
+                    <div class="servicio-icono">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>Dirección Académica</h3>
+                    <p>Gestión de programas académicos y planes de estudio.</p>
+                </div>
+
+                <!-- Apoyo Pedagógico -->
+                <div class="servicio">
+                    <div class="servicio-icono">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h3>Apoyo Pedagógico</h3>
+                    <p>Asesoramiento y recursos para el aprendizaje.</p>
+                </div>
+
+                <!-- Enfermería -->
+                <div class="servicio">
+                    <div class="servicio-icono">
+                        <i class="fas fa-first-aid"></i>
+                    </div>
+                    <h3>Enfermería</h3>
+                    <p>Atención médica básica para estudiantes y personal.</p>
+                </div>
+
+                <!-- Sala de Lectura y Descanso -->
+                <div class="servicio">
+                    <div class="servicio-icono">
+                        <i class="fas fa-couch"></i>
+                    </div>
+                    <h3>Sala de Lectura y Descanso</h3>
+                    <p>Espacio para relajarse y estudiar.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="JSTarjetaBuscador.js"></script>
+    <script>
+
+        document.addEventListener("DOMContentLoaded", () => {
+            // Esperar a que el script principal cargue
+            if (typeof allItems === 'undefined') {
+                console.error('El objeto allItems no está definido');
+                return;
+            }
+
+            const svgObject = document.getElementById("svgMap");
+
+            svgObject.addEventListener("load", function () {
+                const svgDoc = svgObject.contentDocument;
+                const elements = svgDoc.querySelectorAll("path.clickeable");
+
+                elements.forEach(element => {
+                    let originalFill = element.style.fill || element.getAttribute("fill");
+
+                    element.addEventListener("mouseenter", () => {
+                        element.style.fill = "rgba(0, 0, 255, 0.5)";
+                    });
+
+                    element.addEventListener("mouseleave", () => {
+                        element.style.fill = originalFill;
+                    });
+
+                    element.addEventListener("click", () => {
+                        const id = element.getAttribute("data-id");
+                        if (id && allItems[id]) {  // Cambiar locations por allItems
+                            if (typeof verTarjeta === 'function') {
+                                verTarjeta(id);
+                            } else {
+                                console.error('La función verTarjeta no está definida');
+                            }
+                        } else {
+                            console.error(`No se encontró información para la zona con id: ${id}`);
+                        }
+                    });
+                });
+
+                // Cierra tarjeta con clic en las clases no clickeables
+                const svgElement = svgDoc.querySelector("svg");
+                if (svgElement) {
+                    svgElement.addEventListener("click", function (event) {
+                        if (event.target.closest("path.clickeable")) return;
+
+                        document.dispatchEvent(new MouseEvent("click", {
+                            bubbles: true,
+                            cancelable: true
+                        }));
+                    });
+                }
+            });
+        });
+
+    </script>
+</body>
+</html>
